@@ -1,0 +1,511 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*########################*/
+/* general HTML Tag Rules */
+/*########################*/
+
+body {
+	background-image:url(../images/bg_body.jpg);
+	background-repeat:repeat-x;
+	background-position: top;
+	background-attachment:fixed;
+	
+}
+
+h1, h2, h3, {
+	margin:0px;
+	padding:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:22px;
+	color:#333
+}
+.foot h3 {
+	margin:0px;
+	padding:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:22px;
+	color:#333
+}
+p {
+	margin:0px;
+	padding:0px;
+	
+	
+}
+
+h4 {
+	margin:0px;
+	padding:0px;
+	font-weight:bold;
+}
+ul {
+	list-style: none;
+	padding-left: 0px;
+}
+select {
+	width:150px;	
+	height: 26px;
+	color: #ec6c1f; 
+	font-weight: bold;
+}
+label {
+	display: block;
+	margin-bottom: 5px;
+	font-size: 14px;
+	font-family: sans-serif;
+	color: #91877e;
+}
+input {
+	width:148px;	
+	height: 20px;
+}
+
+/*#####################*/
+/* general Class Rules */
+/*#####################*/
+
+.wrapOverall {
+	width:1280px;
+	height:2000px;
+	margin:0px auto;
+	
+}
+
+.header {
+	background-image:url(../images/bg_nav.jpg);
+	background-repeat:no-repeat;
+	background-position:top center;
+	height:82px;
+	
+	
+}
+
+.header img.loco {
+	margin:8px 0px 14px 160px;
+	padding:0px;
+	float:left;
+	
+}
+
+.navMain {
+	float:right;
+	margin:0px;
+	padding:53px 160px 0px 0px;
+}
+
+
+.content {
+	margin:0px;
+	padding:0px;
+	width:1280px;
+	min-height: 1650px; 	
+}
+
+.langSwitcher {
+	clear: both;
+	margin-left: 160px;
+	
+}
+.langSwitcher p {
+	float: left;
+	padding: 7px;
+	font-family: sans-serif;
+	color: #a79371;
+	font-size: 13px;
+}
+.langSwitcher a {
+	color: #32afc3;
+}
+.lan {
+	float: left;
+	padding-bottom: 10px;
+}
+
+.boxOneOverall {
+	width:959px;
+	height:388px;
+	margin:46px 160px;
+	padding:0px;
+	clear: both;
+	
+}
+.boxTwoOverall {
+	background-image:url(images/content_body_packae.png);
+	background-position:top left;
+	background-repeat:no-repeat;
+	width:710px;
+	height:1508px;
+	float:right;
+	margin:0px;
+	padding:0px;
+	
+	
+}
+
+.foot {
+	background-image:url(../images/footer.jpg);
+	background-position:bottom center;
+	background-repeat:no-repeat;
+	height:242px;
+	width:1280px;
+	margin: auto;
+	margin-bottom: 0px;
+	
+	
+}
+.footContent{
+	height:179px;
+	margin:30px 160px 0px 160px;
+	padding:30px 0px 40px 0px;
+	
+}
+
+.siteLinks {
+	float:left;
+	margin:0px 36px 0px 0px;
+	padding:0px 36px 0px 0px;
+	border-right:solid 1px #786156 ;
+	
+	
+}
+
+.newsLetter {
+	float:left;
+	margin:0px 36px 0px 0px;
+	padding:0px;
+	
+	
+}
+
+.Info {
+	float:left;
+	margin:0px;
+	padding:0px 0px 0px 36px;
+	border-left:solid 1px #786156 ;
+	height:164px;
+	
+}
+#email {
+	height:34px;
+	width:253px;
+	border:solid 2px #716056;
+	border-radius:4px 0px 0px 4px;
+	margin:0px;
+	border-right:0px;
+	
+	position:relative;
+	float:left;
+}
+
+#subscribe {
+	height:40px;
+	width:109px;
+	background-color:#f2ba08;
+	border:solid 2px #716056;
+	border-left:0px;
+	border-radius:0px 4px 4px 0px;
+	font-weight: bold;
+	color: #6f5002;	
+	padding:0px;
+	position:relative;
+	float:left;
+}
+.subscribe {
+	position:absolute;
+	
+}
+
+/*###################*/
+/* general Box Rules */
+/*###################*/
+
+.navBody {
+	background-image:url(images/sideBar_book.png);
+	background-position:top left;
+	background-repeat:no-repeat;
+	height:237px;
+	width:230px;
+	float: left;
+}
+.navBody ul {
+	color:#bebdbb;
+	list-style:none;
+	padding:5px 25px;
+	margin-top: 0px;
+}
+.navBody ul li {
+	padding:10px 0px 10px 0px;
+	font-size:15px;
+		
+} 
+#border {
+	border-bottom: solid 1px #ccc;
+}
+
+.navBody ul li a {
+	color:#bebdbb;	
+	
+}
+
+.blackArrow {
+	float: right;
+}
+.contentBodyOverall {
+	background-image:url(images/content_body_packae.png);
+	background-repeat:no-repeat;
+	background-position:top left;
+	width:707px;
+	height:1508px;
+	float:right;
+	margin:0px 0px 0px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+		
+	
+}
+
+.contentBody {
+	width:666px;
+	height:966px;
+	margin:20px;
+	padding:0px;
+	
+}
+.contentTitle {
+	widows:666px;
+	height:115px;
+	margin:0px;
+	border-bottom: 1px dashed #cccccc;
+}
+.contPicTitle {
+	float:left;
+
+}
+
+.contTextTitle {
+	float:left;
+	padding-left: 10px;
+	width: 404px;
+}
+#book {
+	float:left;
+	font-weight: bold;
+	color: #f46a0a;
+	padding-right: 5px;
+}
+
+.contTextTitle a, h2 {
+	font-weight: bold;
+	text-decoration: none;
+	color: #279baf;
+
+}
+.contTextTitle h2 {
+	margin-bottom: 5px;
+
+
+}
+.contentBox {
+	width: 666px;
+	border-bottom: 1px dashed #cccccc;
+	height: 99px;
+	margin-top: 22px;
+}
+.accUnit {
+	width: 343px;
+	float: left;
+}
+.Box {
+	float:left;
+	width:323px;
+	
+}
+
+.accPicture {
+	float: left;
+}
+.picArrow {
+	width: 93px;
+}
+.boxBox1 {
+	float:left;
+	width:223px;
+	height:72px;
+	background-color:#f4fafb;
+	float:left;
+	border-top:2px solid #c3e7ee;
+}
+.boxBox1 p {
+	padding-left: 10px;
+}
+#titleX {
+	text-decoration: underline;
+	color: #279baf;
+	padding-bottom: 8px;
+	font-weight: bold;
+}
+.travelDet {
+	width: 666px;
+	height: 188px;
+	margin-top: 22px;
+	border-bottom: 1px dashed #cccccc;
+}
+.travelDet input {
+	color: #ec6c1f; 
+	width: 145px;
+}
+.box {
+	width: 666px;
+	height: 50px;
+	margin-top: 22px;
+	
+}
+.ravnalo {
+	float: left;
+	margin-right: 20px;
+}
+.ravnalo2 {
+	float: left;
+	margin-right: 0px;
+}
+#accUnit {
+	width: 270px;
+	margin-top: 15px;
+}
+
+.yourInfo {
+	border-bottom: 1px dashed #cccccc;
+	height: 255px;
+	margin-top: 22px;
+}
+#checkbox {
+	width: 20px;
+	margin: 10px 0px;
+}
+#button {
+	background-image:url(images/book_now_1.png);
+	width:200px;
+	height:33px;
+	text-indent:-99999px;
+	border: none;
+	clear: both;
+}
+.bookConfirm {
+	margin-top: 22px;
+	width: 666px;
+	height: 135px;
+	border-bottom: 1px dashed #cccccc;
+}
+.bookConfirm input {
+	float: left;
+}
+.bookConfirm p {
+	float: left;
+	margin: 12px 12px;
+}
+.bookConfirm a {
+	color: #279baf;
+	font-weight: bold;
+
+}
+.comment {
+	margin-top: 22px;
+	width: 666px;
+	height: 165px;
+	border-bottom: 1px dashed #cccccc;
+}
+.comment h4 {
+	margin-bottom: 20px;
+}
+textarea {
+	width: 660px;
+	height: 96px;
+}
+.addNotes {
+	margin-top: 22px;
+	width: 666px;
+	height: 270px;
+	border-bottom: 1px dashed #cccccc;
+}
+.addNotes ul {
+	list-style: disc;
+	padding-left: 17px; 
+}
+.addNotes ul li {
+	margin-bottom: 10px;
+	font-size: 13px;
+	color: #91877e;
+}
+
+/*####################*/
+/* general Navi Rules */
+/*####################*/
+
+
+
+.navMain ul {
+	margin:0px;
+	padding:0px;
+	
+}
+.navMain ul li {
+	padding: 10px;
+	display:inline;
+	list-style:none;
+	background: rgba(16, 100, 115, 0.498039);
+	border-radius: 4px 4px 0 0;
+		
+}
+#active {
+	background-color: #ffffff;
+}
+#active a{
+	color:#157b92;
+}
+
+.navMain ul li a {
+	
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#FFFFFF;
+	font-weight:bold;	
+}
+.navMain ul li:hover{	
+	background: rgba(16, 100, 115, 0.9);
+	color:#FFFFFF;	
+	border-radius: 4px 4px 0 0;
+}
+.footContent p {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#FFFFFF;
+}
+
+.footContent ul {
+	margin:0px;
+	padding:0px;
+	color:#FFFFFF;
+	list-style: none;
+	
+}
+
+.footContent ul li {
+	margin:5px;
+	padding:0px;
+	
+	
+}
+
+.footContent ul li a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#FFFFFF;
+	
+}
+
+.footContent ul li a:hover {
+	
+	
+}

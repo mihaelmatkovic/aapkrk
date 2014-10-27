@@ -1,0 +1,679 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*########################*/
+/* general HTML Tag Rules */
+/*########################*/
+
+body {
+	background-image:url(../images/bg_body.jpg);
+	background-repeat:repeat-x;
+	background-position: top;
+	background-attachment:fixed;
+	
+}
+
+h1, h2, h3, h4 {
+	margin:0px;
+	padding:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:22px;
+	font-weight:bold;
+	color:#333
+	
+}
+
+p {
+	margin:0px;
+	padding:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	
+	
+}
+
+
+
+
+/*#####################*/
+/* general Class Rules */
+/*#####################*/
+
+.wrapOverall {
+	width:1280px;
+	height:2000px;
+	margin:0px auto;
+	
+}
+
+.header {
+	background-image:url(../images/bg_nav.jpg);
+	background-repeat:no-repeat;
+	background-position:top center;
+	height:82px;
+	
+	
+}
+
+.header img.loco {
+	margin:8px 0px 14px 160px;
+	padding:0px;
+	float:left;
+	
+}
+
+.navMain {
+	float:right;
+	margin:0px;
+	padding:53px 160px 0px 0px;
+}
+
+
+.content {
+	margin:0px;
+	padding:0px;
+	width:1280px;
+	min-height: 1000px;
+	
+	
+}
+
+.langSwitcher {
+	clear: both;
+	margin-left: 160px;
+	
+}
+.langSwitcher p {
+	float: left;
+	padding: 7px;
+	font-family: sans-serif;
+	color: #a79371;
+	margin-left: 0px;
+}
+.langSwitcher a {
+	color: #32afc3;
+}
+.lan {
+	float: left;
+	padding-bottom: 10px;
+}
+
+.boxOneOverall {
+	width:959px;
+	height:388px;
+	margin:46px 160px;
+	padding:0px;
+	clear: both;
+	
+}
+
+.searchBox {
+	width:230px;
+	height:548px;
+	margin:0px;
+	padding:0Px;
+	float:left;
+
+}
+.searchBox p {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	color:#979286;
+	margin-left: 0px;
+		
+}
+
+.typeAccommo {
+	height:80px;
+	width:230px;
+	border-bottom:#ebe0ce solid 1px;
+	padding-top: 10px;
+	
+}
+.region {
+	height:198px;
+	width:228px;
+	margin: 10px 0px 0px 0px;
+	border-bottom:#ebe0ce solid 1px;
+}
+
+.region p {
+	margin:0px 15px;
+}
+.region label {
+	margin-left: 10px;
+	margin-top: 10px;
+}
+#reion {
+	margin: 10px 10px;
+}
+.numbPpl {
+	height:162px;
+	width:228px;
+	border-bottom:#ebe0ce solid 1px;
+}
+.numbPpl p {
+	margin:5px;
+	float:left;
+	
+}
+.searchButton {
+	height:52px;
+	width:228px;
+}
+#adults, #youth, #children, #kids {
+	color:#ec6c1f;
+	font-weight:bold;
+}
+
+.buttonSearch {
+	margin:0px;
+	padding:8px 14px; 
+}
+.accContent {
+	width:710px;
+	height:847px;
+	float:right;
+	
+	
+}
+.iframe {
+	width: 150px;
+	height: 150px;
+	float:left;
+	margin:0px;
+	padding:0px;
+	
+}
+
+.accContentBox1 {
+	height:274px;
+	margin:0px 0px 10px 0px;
+	background-color:#fff;
+	border:solid 1px #e8e1da; 
+	
+}
+.accBox1Overall {
+	margin:25px;
+	width:666px;
+	height:227px;
+}
+.Box1 h3, p {
+	margin-left: 105px;
+}
+.Box1 p {
+	padding-top: 7px;
+	color: #948d7f;
+}
+#app {
+	color: #279baf;
+	font-weight: bold;
+}
+.title {
+	font-size: 18px;
+	text-decoration: underline;
+
+}
+
+.Box1 {
+	float:right;
+	width:507px;
+	height:77px;	
+}
+.Box2 {
+	float:right;
+	width:507px;
+	height:77px;
+}
+.Box3 {
+	float:right;
+	width:507px;
+	height:77px;
+}
+.boxBox1 {
+	width:200px;
+	height:72px;
+	background-color:#f4fafb;
+	float:left;
+	border-top:2px solid #c3e7ee;
+}
+.boxBox1 p {
+	margin: 5px 0px 0px 10px;
+
+}
+.boxBox2 p {
+	margin: 5px 0px 0px 10px;
+	font-size: 11px;
+	color: #f15706;
+}
+#price {
+	font-size: 20px;
+}
+#link {
+	color: #279baf;
+	padding: 5px;
+}
+.boxBox2 {
+	width:206px;
+	height:72px;
+	background-color:#fff7f2;
+	float:right;
+	border-top:2px solid #eecac3;
+	border-left:1px solid #eecbc4;
+}
+
+
+.Box1 a {
+	float:right;
+	font-size:12px;
+	background-color:#e9f5f7;
+	margin:0px;
+	padding:0px;
+	
+}
+
+.bookNow {
+	float:right;
+	margin:22px 10px;
+	
+}
+
+.accPicture {
+	float:left;
+	
+	
+}
+.accContentBox2 {
+	height:202px;
+	margin:0px 0px 10px 0px;
+	background-color:#fff;
+	border:solid 1px #e8e1da; 
+	
+}
+.accBox2Overall {
+	margin:25px;
+	width:666px;
+	height:150px;
+}
+.accBoxContent2 {
+	float:right;
+	width:508px;
+	height:147px;
+	
+	
+}
+
+.accContentBox3 {
+	height:351px;
+	margin:0px 0px 10px 0px;
+	background-color:#fff;
+	border:solid 1px #e8e1da; 
+	
+}
+
+.accBox3Overall {
+	margin:25px;
+	width:666px;
+	height:301px;
+}
+.accBoxContent3 {
+	float:right;
+	width:508px;
+	height:301px;
+	
+}
+
+.accContentBox4 {
+	height:75px;
+	margin:0px 0px 10px 0px;
+	background-color:#fff;
+	border:solid 1px #e8e1da; 
+}
+
+.accContentBox4 ul {
+	list-style:none;
+	margin:20px 270px 20px 270px;
+	padding:0px;
+	
+}
+.accContentBox4 ul li {
+	display:inline;
+	
+	border-right:solid 1px #CCCCCC;
+	padding:0px 10px; 
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	
+	
+	
+	
+}
+.accContentBox4 ul li a {
+	text-decoration:none;
+	color:#b69e9e;
+	
+}
+#selected {
+	color:#f2662c;
+	border-left:solid 1px #CCCCCC;
+	padding:0px 0px 0px 10px;
+	
+}
+
+.foot {
+	background-image:url(../images/footer.jpg);
+	background-position:bottom center;
+	background-repeat:no-repeat;
+	height:242px;
+	width:1280px;
+	margin-top: 100px;
+	
+	
+}
+.footContent{
+	height:179px;
+	margin:30px 160px 40px 160px;
+	padding:30px 0px 40px 0px;
+	
+}
+
+.siteLinks {
+	float:left;
+	margin:0px 36px 0px 0px;
+	padding:0px 36px 0px 0px;
+	border-right:solid 1px #786156 ;
+	
+	
+}
+
+.newsLetter {
+	float:left;
+	margin:0px 36px 0px 0px;
+	padding:0px;
+}
+.newsLetter p {
+	margin-left: 0px; 
+}
+
+.Info {
+	float:left;
+	margin:0px;
+	padding:0px 0px 0px 36px;
+	border-left:solid 1px #786156 ;
+	height:164px;
+	
+}
+#email {
+	height:34px;
+	width:253px;
+	border:solid 2px #716056;
+	border-radius:4px 0px 0px 4px;
+	margin:0px;
+	border-right:0px;
+	
+	position:relative;
+	float:left;
+}
+
+#subscribe {
+	height:40px;
+	width:109px;
+	background-color:#f2ba08;
+	border:solid 2px #716056;
+	border-left:0px;
+	border-radius:0px 4px 4px 0px;
+	font-weight: bold;
+	color: #6f5002;	
+	padding:0px;
+	position:relative;
+	float:left;
+}
+.subscribe {
+	position:absolute;
+	
+}
+#accommo {
+	width:200px;
+	height:26px;
+	margin:5px 15px 20px 15px;
+	color:#ec6c1f;
+	font-weight:bold;
+	margin:0px 15px;
+	padding:0px;
+	
+	
+	
+}
+#reion {
+	width:200px;
+	height:26px;
+	margin:5px 15px 20px 15px;
+	color:#ec6c1f;
+	font-weight:bold;
+	margin:0px 15px;
+	padding:0px;
+	
+}
+
+#numPpl {
+	width:67px;
+	height:26px;
+	float:right;
+	
+	color:#ec6c1f;
+	font-weight:bold;
+	margin:0px;
+	padding:0px;
+	
+
+}
+.numbPpl li {
+	width: 210px;
+	
+}
+.numbPpl li select {
+	margin-top: 0px;
+	
+}
+#adults, #youth, #children, #kids {
+	float: right;
+	width: 67px;
+	height: 26px;
+	margin-bottom: 10px;
+}
+#button {
+	margin-left: 12px;
+	margin-top: 8px;
+	border: none;
+}
+
+
+}
+.numbText {
+	float:left;
+	margin:5px;
+	padding:0px;
+	
+}
+.arrivalOverall {
+	height:44px;
+}
+
+.departureOverall {
+	height:44px;
+	
+}
+.arrivalTitle {
+	float:left;
+	
+}
+.departureTitle {
+	float:left;
+}
+
+/*###################*/
+/* general Box Rules */
+/*###################*/
+
+.searchBoxHeader {
+	background-image:url(../images/search_bucket_hearder.png);
+	background-repeat:no-repeat;
+	background-position:top left;
+	margin:0px;
+	padding:0Px;
+	width:230px;
+	height:36px;
+	color:#73655e;
+	font-weight:bold;
+}
+
+.searchBoxBody {
+	background-color: #fff;
+	border: 2px solid #e0d7ce; 
+	margin:0px;
+	padding:0px;
+	height:512px;
+	width:226px;
+	
+}
+.searchBoxHeader p {
+	padding:10px;
+}
+.searchBoxBody p {
+	padding:0px 0px 0px 7px;
+	margin:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	
+}
+.searchBoxBody ul {
+	padding-left: 0px;
+	margin: 0px
+}
+.searchBoxBody ul li {
+	padding: 10px;
+	list-style: none;
+}
+form li {
+	width: 230px;
+	list-style:none;
+	margin: 0px;
+	
+	
+	
+}
+form ul {
+	padding-left:0px;
+}
+
+select {
+	display:block;
+	margin:20px 0px;	
+}
+input {
+	width:100px
+}
+#accommo {
+	width:200px;
+	height:10px 10px;
+	margin: 10px 10px;
+	color:#ec6c1f;
+	font-weight:bold;
+	
+	
+}
+#reion {
+	width:200px;
+	height:26px;
+	margin: 10px 10px;
+	color:#ec6c1f;
+	font-weight:bold;
+}
+
+
+
+
+
+#button {
+	background-image:url(images/search-button.png);
+	width:200px;
+	height:33px;
+	text-indent:-99999px;
+	border-bottom: none;
+}
+#arival, #departure {
+	margin: 20px 8px;
+}
+.typeAccommo label {
+	margin: 0px 0px 0px 10px;
+}
+
+
+
+
+/*####################*/
+/* general Navi Rules */
+/*####################*/
+
+.navMain ul {
+	margin:0px;
+	padding:0px;
+	
+}
+.navMain ul li {
+	padding: 10px;
+	display:inline;
+	list-style:none;
+	background: rgba(16, 100, 115, 0.498039);
+	border-radius: 4px 4px 0 0;
+		
+}
+
+.navMain ul li a {
+	
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#FFFFFF;
+	font-weight:bold;	
+}
+.navMain ul li:hover{	
+	background: rgba(16, 100, 115, 0.9);
+	color:#FFFFFF;	
+	border-radius: 4px 4px 0 0;
+}
+.footContent p {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#FFFFFF;
+}
+
+.footContent ul {
+	margin:0px;
+	padding:0px;
+	color:#FFFFFF;
+	list-style:none;
+}
+
+.footContent ul li {
+	margin:5px;
+	padding:0px;
+	
+	
+}
+
+.footContent ul li a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#FFFFFF;
+	
+}
+
+.footContent ul li a:hover {
+	
+	
+}
+
