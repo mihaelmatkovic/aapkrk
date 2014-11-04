@@ -194,7 +194,7 @@ a:hover {
 	border-radius:4px 0px 0px 4px;
 	margin:0px;
 	border-right:0px;
-	
+	padding-left: 5px;
 	position:relative;
 	float:left;
 }
@@ -416,6 +416,19 @@ a:hover {
 	padding:20px 0px 0px 20px;
 	color: #3d6c7d;
 	
+}
+
+.returnAcc {
+	padding-top: 22px;
+}
+.arrowBlue {
+	float: left;
+	padding: 5px 10px 0px 0px;
+}
+.ret {
+	float: left;
+	text-decoration: underline;
+	color: #279baf;
 }
 
 .buttons {
