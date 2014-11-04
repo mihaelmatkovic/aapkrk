@@ -272,7 +272,7 @@ a:hover {
 /* general Box Rules */
 /*###################*/
 
-.navBody {
+.sideNav {
 	background-image:url(../images/navTYbody.png);
 	background-position:top left;
 	background-repeat:no-repeat;
@@ -281,25 +281,40 @@ a:hover {
 	float:left;
 	
 }
-.navBody ul {
+.sideNav ul {
 	color:#bebdbb;
 	list-style:none;
-	padding:5px 25px;
-	margin: 0px;
+	margin: 0px 5px;
+	padding-left: 0px;
+	padding-top: 5px;
 	
 } 
-.navBody ul li {
-	padding:10px 0px 10px 0px;
+.sideNav ul li {
+	padding:10px 15px;
 	font-size:15px;
 		
 } 
 
-.navBody ul li a {
+.sideNav ul li a {
 	color:#bebdbb;	
+	text-decoration: none;
+}
+#acitve {
+	background: #48b0c5;
+	padding:10px 15px;
+	border-radius: 4px;
 	
 }
+#acitve a {
+	color: #fff;
+}
+.border {
+	border-bottom: solid 1px #e0d7ce;
+}
+
 .blackArrow {
 	float: right;
+	padding-top: 3px;
 }
 .contentBodyOverall {
 	background-image:url(../images/content_body_packae.png);

@@ -213,7 +213,7 @@ a:hover {
 /* general Box Rules */
 /*###################*/
 
-.navBody {
+.sideNav {
 	background-image:url(../images/nav_accommo_body.png);
 	background-position:top left;
 	background-repeat:no-repeat;
@@ -223,27 +223,36 @@ a:hover {
 	
 	
 }
-.navBody ul {
+.sideNav ul {
 	color:#bebdbb;
 	list-style:none;
-	padding:5px 25px;
-}
-.navBody ul li {
-	padding:10px 0px 10px 0px;
+	margin: 0px 5px;
+	padding-left: 0px;
+	padding-top: 5px;
+	
+} 
+.sideNav ul li {
+	padding:10px 15px;
 	font-size:15px;
 		
 } 
 
-.navBody ul li a {
+.sideNav ul li a {
 	color:#bebdbb;	
+	text-decoration: none;
+}
+#acitve {
+	background: #48b0c5;
+	padding:10px 15px;
+	border-radius: 4px;
 	
 }
-.navBody ul li a:hover {
-	background-color: blue;
-	color:#fff;
+#acitve a {
+	color: #fff;
 }
 .blackArrow {
 	float: right;
+	padding-top: 3px;
 }
 
 .extraContentBoxHeader {

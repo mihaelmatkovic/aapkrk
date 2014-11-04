@@ -237,22 +237,26 @@ p {
 .sideNav ul {
 	color:#bebdbb;
 	list-style:none;
-	margin:10px 25px;
-	margin-top: 0px;
+	margin: 0px 5px;
 	padding-left: 0px;
 	padding-top: 5px;
+	
 } 
 .sideNav ul li {
-	padding:10px 0px 10px 0px;
+	padding:10px 15px;
 	font-size:15px;
 		
 } 
 
 .sideNav ul li a {
 	color:#bebdbb;	
+	text-decoration: none;
 }
 #acitve {
 	background: #48b0c5;
+	padding:10px 15px;
+	border-radius: 4px;
+	
 }
 #acitve a {
 	color: #fff;
@@ -260,6 +264,7 @@ p {
 
 .blackArrow {
 	float: right;
+	padding-top: 3px;
 }
 
 .extraContentBoxHeader{
