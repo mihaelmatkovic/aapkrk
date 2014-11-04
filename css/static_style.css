@@ -25,20 +25,11 @@ h1, h2, h3, h4 {
 }
 
 p {
+	font-size:12px;
 	margin:0px;
 	padding:0px;
-	
-	
+	font-family: sans-serif;	
 }
-
-a {
-	
-}
-
-a:hover {
-	
-}
-
 
 
 /*#####################*/
@@ -48,24 +39,20 @@ a:hover {
 .wrapOverall {
 	width:1280px;
 	height:2000px;
-	margin:0px auto;
-	
+	margin:0px auto;	
 }
 
 .header {
 	background-image:url(../images/bg_nav.jpg);
 	background-repeat:no-repeat;
 	background-position:top center;
-	height:82px;
-	
-	
+	height:82px;	
 }
 
 .header img.loco {
 	margin:8px 0px 14px 160px;
 	padding:0px;
-	float:left;
-	
+	float:left;	
 }
 
 .navMain {
@@ -79,7 +66,7 @@ a:hover {
 	margin:0px;
 	padding:0px;
 	width:1280px;
-	min-height:800px;
+	min-height: 700px;
 	
 }
 .langSwitcher {
@@ -92,7 +79,6 @@ a:hover {
 	padding: 7px;
 	font-family: sans-serif;
 	color: #a79371;
-	font-size: 13px;
 }
 .langSwitcher a {
 	color: #32afc3;
@@ -114,12 +100,26 @@ a:hover {
 .extraContentBox {
 	width:230px;
 	height:158px;
-	float:left;
-	
-	
+	margin:20px 0px 0px 0px	
 }
 
 
+.navExtraOverall {
+	width: 230px;
+	height: 375px;
+	float:left;
+}
+
+.statPic {
+	float:left;
+	padding-top: 22px;	
+}
+.statText {
+	float:left;
+	width: 335px;
+	margin-left: 10px;
+	padding-bottom: 0px;
+}
 
 
 .foot {
@@ -127,16 +127,13 @@ a:hover {
 	background-position:bottom center;
 	background-repeat:no-repeat;
 	height:242px;
-	width:1280px;
+	width:1280px;	
 	margin-top: 100px;
-	
-	
 }
 .footContent{
 	height:179px;
 	margin:30px 160px 40px 160px;
-	padding:30px 0px 40px 0px;
-	
+	padding:30px 0px 40px 0px;	
 }
 
 .siteLinks {
@@ -144,17 +141,13 @@ a:hover {
 	margin:0px 36px 0px 0px;
 	padding:0px 36px 0px 0px;
 	border-right:solid 1px #786156 ;
-	height: 164px;
-	
-	
+	height: 164px;	
 }
 
 .newsLetter {
 	float:left;
 	margin:0px 36px 0px 0px;
-	padding:0px;
-	
-	
+	padding:0px;	
 }
 
 .Info {
@@ -162,8 +155,7 @@ a:hover {
 	margin:0px;
 	padding:0px 0px 0px 36px;
 	border-left:solid 1px #786156 ;
-	height:164px;
-	
+	height:164px;	
 }
 #email {
 	height:34px;
@@ -192,228 +184,106 @@ a:hover {
 	float:left;
 }
 .subscribe {
-	position:absolute;
-	
+	position:absolute;	
 }
-
-.Info {
-	float:left;
-	margin:0px;
-	padding-left: 36px;	
-}
-.listOverall {
-	idth:666px;
-	height:124px;
-	margin:0px;
-	padding:0px;
-}
-.leftListBoxOverall {
-	width:333px;
-	height:124px;
-	float:left;
-	margin:0px;
-	padding:0px;
-}
-.rightListOverall {
-	width:333px;
-	height:124px;
-	float:left;
-	margin:0px;
-	padding:0px;
-}
-
-.listLeft {
-	width:75px;
-	height:100px;
-	float:left;
-	margin:0px;
-	padding:0px;
-	font-size:13px;
-	
-}
-.listLeft ul {
-	margin:10px;
-	padding:0px;
-}
-.listLeft ul li {
-	list-style:none;
-	font-weight:bold;
-	
-}
-
-.listright {
-	width:150px;
-	height:100px;
-	float:left;
-	margin:0px;
-	padding:0px;
-	font-size:13px;
-	font-family:Arial, Helvetica, sans-serif;
-	color:#8e887b;
-	
-	
-}
-.listright ul {
-	margin:10px 0px;
-	padding:0px;
-	
-}
-.listright ul li {
-	list-style:none;
-	
-}
-
-
-
-
-
 
 /*###################*/
 /* general Box Rules */
 /*###################*/
-
-.navBody {
-	background-image:url(images/navTYbody.png);
-	background-position:top left;
+.contentBodyOverall {
+	background-image:url(../images/content_body_packae.png);
 	background-repeat:no-repeat;
-	width:230px;
-	height:237px;
-	float:left;
+	background-position:top left;
+	width:707px;
+	height:626px;
+	margin:0px 0px 0px 0px;
+	float:right;
+}
+
+.contentBody {
+	width:666px;
+	height:580px;
+	margin:20px;
+	padding:0px;
 	
 }
-.navBody ul {
+.contentBody h1 {
+	border-bottom: dashed 1px #cccccc;
+	padding-bottom: 10px;
+}
+.contentBody h2, {
+	
+	padding: 10px 0px;
+}
+.contentBody p {
+	font-family: sans-serif;
+	padding: 22px 0px;
+	font-size: 13px; 
+	color: #7d786d;
+}
+.contentBody a {
+	color: #43aac0;
+}
+
+.sideNav {
+	background-image:url(../images/navTYbody.png);
+	background-repeat:no-repeat;
+	background-position:top left;
+	width:231px;
+	height:197px;
+	margin:0px;
+	padding:0px;
+}
+.sideNav ul {
 	color:#bebdbb;
 	list-style:none;
-	padding:5px 25px;
-	margin: 0px;
-	
+	margin:10px 25px;
+	margin-top: 0px;
+	padding-left: 0px;
+	padding-top: 5px;
 } 
-.navBody ul li {
+.sideNav ul li {
 	padding:10px 0px 10px 0px;
 	font-size:15px;
 		
 } 
 
-.navBody ul li a {
+.sideNav ul li a {
 	color:#bebdbb;	
-	
 }
+#acitve {
+	background: #48b0c5;
+}
+#acitve a {
+	color: #fff;
+}
+
 .blackArrow {
 	float: right;
 }
-.contentBodyOverall {
-	background-image:url(images/content_body_packae.png);
+
+.extraContentBoxHeader{
+	background-image:url(../images/extra-content-box-header.png);
 	background-repeat:no-repeat;
 	background-position:top left;
-	width:707px;
-	height:750px;
-	float:right;
-	margin:0px 0px 0px 0px;
-		
-	
-}
-
-.contentBody {
-	width:666px;
-	height:966px;
-	margin:20px;
-	padding:0px;
-	
-}
-
-.contentTitle {
-	height:105px;
-	margin-bottom: 20px;
-	border-bottom: 1px dashed #cccccc;
-	
-}
-.contPicTitle {
-	float:left;
 	margin:0px;
 	padding:0px;
+	height:35px;
 }
-
-.contTextTitle {
-	float:left;
-	margin:0px 10px;
-	padding:0px;
+.extraContentBoxHeader p {
+	padding:12px;
+	font-size: 14px;
+	color: #827b72;
+	font-weight: bold;
 }
-.contTextTitle a {
-	color: #279baf;
-	font-weight: bold;	
-	text-decoration: none;
-	font-size: 12px;
-}
-
-.bookin {
-	margin:0px 0px 27px 0px;
-}
-
-.TY {
-	height:250px;
-	
-}
-.one{
-	float:left;
-	
-}
-
-
-.two {
-	float:right;
-	
-	
-}
-
-
-.share {
-	background-image:url(images/share_body.png);
-	background-position:top left;
+.extraContentBoxBody{
+	background-image:url(../images/extra-content-box-body.png);
 	background-repeat:no-repeat;
-	height:106px;
-	
-	
-}
-.share h3 {
-	margin:0px0px 13px 0px;
-	padding:20px 0px 0px 20px;
-	color: #3d6c7d;
-	
-}
-
-.buttons {
-	margin-top: 10px;
-	
-	
-}
-.facebook {
+	background-position:top left;
 	margin:0px;
-	padding:0px 17px 0px 20px;
-	
+	padding:0px;
+	height:122px;
 }
-.twitter {
-	margin:0px;
-	padding:0px 17px 0px 0px;
-}
-.google {
-	margin:0px;
-	padding:0px 0px 0px 0px;
-}
-.backTo {
-	margin:10px;
-	padding:25px 0px;
-	
-	
-}
-.backTo a {
-	color:#279baf;
-	
-}
-.backArrow {
-	margin:0px 10px 0px 0px;
-	
-}
-
 
 
 /*####################*/
@@ -424,16 +294,14 @@ a:hover {
 
 .navMain ul {
 	margin:0px;
-	padding:0px;
-	
+	padding:0px;	
 }
 .navMain ul li {
 	padding: 10px;
 	display:inline;
 	list-style:none;
 	background: rgba(16, 100, 115, 0.498039);
-	border-radius: 4px 4px 0 0;
-		
+	border-radius: 4px 4px 0 0;		
 }
 #active {
 	background-color: #ffffff;
@@ -455,6 +323,7 @@ a:hover {
 	color:#FFFFFF;	
 	border-radius: 4px 4px 0 0;
 }
+
 .footContent p {
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:14px;
@@ -464,28 +333,21 @@ a:hover {
 .footContent ul {
 	margin:0px;
 	padding:0px;
-	color:#FFFFFF;
-	list-style: none;
-	
+	list-style: none;	
 }
 
 .footContent ul li {
 	margin:5px;
 	padding:0px;
-	
-	
+	color:#FFFFFF;
 }
 
 .footContent ul li a {
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:14px;
 	color:#FFFFFF;
-	
 }
 
-.footContent ul li a:hover {
-	
-	
-}
+
 
 

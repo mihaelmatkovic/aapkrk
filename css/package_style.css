@@ -14,7 +14,7 @@ body {
 	
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5  {
 	margin:0px;
 	padding:0px;
 	font-family:Arial, Helvetica, sans-serif;
@@ -79,11 +79,10 @@ a:hover {
 	margin:0px;
 	padding:0px;
 	width:1280px;
-	min-height: 1200px;
-	
+	min-height:1300px;
+
 	
 }
-
 .langSwitcher {
 	clear: both;
 	margin-left: 160px;
@@ -107,35 +106,54 @@ a:hover {
 .boxOneOverall {
 	width:959px;
 	height:388px;
-	margin:46px 160px;
+	margin:0px 160px;
 	padding:0px;
 	clear: both;
 	
 }
 
-
-
 .extraContentBox {
 	width:230px;
 	height:158px;
-	margin:20px 0px 20px 0px;
+	float:left;
+	
+	
+}
+.extraContentBoxHeader {
+	background-image:url(../images/extra-content-box-header.png);
+	background-repeat:no-repeat;
+	background-position:top left;
+	margin:0px;
 	padding:0Px;
-	
-	
+	height:10px;
+	color:#73655e;
+	font-weight:bold;
 }
 
-.boxTwoOverall {
-	background-image:url(images/content_body_packae.png);
-	background-position:top left;
+.extraContentBoxBody {
+	background-image:url(../images/search_bucket_bx.png);
 	background-repeat:no-repeat;
-	width:710px;
-	height:1508px;
-	float:right;
+	background-position:top left;
 	margin:0px;
-	padding:0px;
-	
+	padding:0Px 2px 0px 0px;
+	height:123px;
 	
 }
+.extraContentBox p {
+	padding:13px;
+	margin:0px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #827b72;
+	font-size: 13px;
+	font-weight: bold;
+	
+}
+.lanSwicher {
+	width:960px;
+	height:36px;
+	margin: 5px 160px 0px 160px;
+}
+
 
 .foot {
 	background-image:url(../images/footer.jpg);
@@ -153,12 +171,12 @@ a:hover {
 	padding:30px 0px 40px 0px;
 	
 }
-
 .siteLinks {
 	float:left;
 	margin:0px 36px 0px 0px;
 	padding:0px 36px 0px 0px;
 	border-right:solid 1px #786156 ;
+	height: 164px;
 	
 	
 }
@@ -199,7 +217,7 @@ a:hover {
 	border-left:0px;
 	border-radius:0px 4px 4px 0px;
 	font-weight: bold;
-	color: #6f5002;	
+	color: #6f5002;
 	padding:0px;
 	position:relative;
 	float:left;
@@ -209,169 +227,215 @@ a:hover {
 	
 }
 
-/*###################*/
-/* general Box Rules */
-/*###################*/
 
-.navBody {
-	background-image:url(images/nav_accommo_body.png);
-	background-position:top left;
-	background-repeat:no-repeat;
-	height:158px;
-	width:230px;
-	margin:20px 0px 0px 0px;
-	
-	
-}
-.navBody ul {
-	color:#bebdbb;
-	list-style:none;
-	padding:5px 25px;
-}
-.navBody ul li {
-	padding:10px 0px 10px 0px;
-	font-size:15px;
-		
-} 
-
-.navBody ul li a {
-	color:#bebdbb;	
-	
-}
-.navBody ul li a:hover {
-	background-color: blue;
-	color:#fff;
-}
-.blackArrow {
-	float: right;
-}
-
-.extraContentBoxHeader {
-	background-image:url(images/extra-content-box-header.png);
-	background-repeat:no-repeat;
-	background-position:top left;
-	margin:0px;
-	padding:0Px;
-	height:10px;
-	color:#73655e;
-	font-weight:bold;
-}
-
-.extraContentBoxBody {
-	background-image:url(../images/search_bucket_bx.png);
-	background-repeat:no-repeat;
-	background-position:top left;
-	margin:0px;
-	padding:0Px 2px 0px 0px;
-	height:123px;
-	
-}
-.extraContentBox p {
-	padding:13px;
-	margin:0px;
-	font-family: Arial, Helvetica, sans-serif;
-	color:#73655e;
-	font-weight:bold;
-	font-size: 13px;
-	
-}
 
 .contentBodyOverall {
-	background-image:url(images/content_body_packae.png);
+	background-image:url(../images/content_body_packae.png);
 	background-repeat:no-repeat;
 	background-position:top left;
 	width:707px;
-	height:1150px;
+	min-height:1250px;
 	float:right;
 	margin:0px 0px 0px 0px;
-	font-family: Arial, Helvetica, sans-serif;
 		
 	
 }
 
 .contentBody {
 	width:666px;
-	height:966px;
+	height:1125px;
 	margin:20px;
 	padding:0px;
 	
 }
-.contentBody a {
-	color: #de5053;
+.contentBody {
+	font-family: arial, Helvetica, sans-serif;
 }
-
-	
 
 .contentTitle {
-	width:666px;
-	height:67px;
-	margin:0px;
+	height:164px;
 	border-bottom: 1px dashed #cccccc;
+	padding-bottom: 25px;
+	
 }
 .contentTitle a {
-	color: #279baf;
-	font-weight: bold;	
-	text-decoration: none;
-	font-size: 12px;
+	text-decoration:none;
+}
+.titlePicture {
+	float:left;
+	margin-left: 5px;
+}
+.titleTitle {
+	padding:5px;
+	float:left; 
+	
+}
+#TiTle {
+	color:#1c90a4;
+	
+}
+#numb {
+	color:#ed470d;
+	
+}
+.titlePic {
+	margin:0px;
+	padding:0px;
+	float:left;
+}
+.titleContent {
+	width:431px;
+	height:170px;
+	
+}
+.listOverall {
+	background-image:url(../images/back_.png);
+	background-repeat:no-repeat;
+	background-position:top left;
+	height:80px;
+	width:410px;
+	float:left;
+	margin-top: 10px;
+	
+}
+.listOne {
+	float:left;
+	width:120px;
+	
+}
+.listOne ul {
+	
+}
+.listOne ul li {
+	list-style:none;
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#8e887b;
+	
+}
+.listTwo {
+	float:left;
+}
+.listTwo ul {
+	
+}
+.listTwo ul li {
+	list-style:none;
+	font-size:14px;
+	font-weight:bold;
+	
+	
 }
 
 .titleText {
-	width:350px;
-	height:77px;
-	margin:0px;
 	float:left;
-	
-	
+	padding::0px 20px;
 }
 
-
-.contentTitle img.bookNow {
-	float:right;
-	margin:0px 0px 25px 0px;
-	
-	
-	
-}
-
-.pics {
-	background-image:url(images/accomodation-content-pic.jpg);
-	background-position:top left;
-	background-repeat:no-repeat;
-	width:666px;
-	height:351px;
-	margin:20px 0px;
-	
-}
 
 .infoText {
-	height:88x;
-	margin:20px 0px;
-	border-top: dashed 1px #ccc;
-	border-bottom: dashed 1px #ccc;
-	padding: 22px 0px;
+	font-size: 14px;
+	height:88px;
+	margin-top: 25px;
+	border-bottom: 1px dashed #cccccc;
+	
 	
 }
-.infoText dd {
-	margin-left: 10px;
+
+.contentPic {
+	background-image:url(../images/pic-s_packae_content.jpg);
+	background-repeat:no-repeat;
+	background-position:top left;
+	width:666px;
+	height:457px;
+	margin-top: 25px;
+	padding:0px;
+
+
 }
 
-.svojstva dd {
-	margin-left: 20px;
+.includedBox {
+	margin-top: 25px;
+	padding:0px;
+
 }
-.svojstva dt {
-	margin-top: 20px;
+
+.includedBoxHeader {
+	background-image:url(../images/included_header.png);
+	background-position:top left;
+	background-repeat:no-repeat;
+	height:38px;
+	
 }
-.svojstva dt p {
-	color: #e98135;
+.includedBoxHeader p {
+	padding: 13px 0px 0px 13px;
+	color: #827b72;
+	font-size: 13px;
+	font-weight: bold;
 }
-.svojstvaList1 {
-	width: 250px;
-	float: left;
+
+.includedBoxBody {
+	background-image:url(../images/included-body-border.png);
+	background-position:top left;
+	background-repeat:no-repeat;
+	height:268px;
+	
 }
-.svojstvaList2 {
+.includedBoxBodyContent {
+	height:254px;
+	width:664px;
+	padding:10px 0px 0px 0px;
+	
+}
+.includedPic {
+	margin:0px 14px 0px 0px;
+	padding:0px;
+	float:left;
+	
+}
+.includedTitle {
+	float:left;
+	margin:0px;
+	padding:0px;
+	
+}
+.viewMoreButton {
 	float:right;
-	padding-right: 220px;
+	margin:0px;
+	padding:0px;
 }
+
+.viewMoreButton img.viewMore {
+	margin:16px;
+}
+
+.private {
+	height:75px;
+	width:632px;
+	margin:0px 10px 10px 10px;
+	border-bottom:dashed 1px #666666;
+	border-image-width:232px; 
+}
+.private a {
+	color: #40a2b5;
+	text-decoration: none;
+	font-weight: bold;
+}
+.kim {
+	height:75px;
+	width:632px;
+	margin:10px;
+	border-bottom:dashed 1px #666666;
+	border-image-width:232px;
+}
+.road {
+	height:60px;
+	width:632px;
+	margin:10px;
+	
+}
+
+
 
 /*####################*/
 /* general Navi Rules */
@@ -412,6 +476,7 @@ a:hover {
 	color:#FFFFFF;	
 	border-radius: 4px 4px 0 0;
 }
+
 .footContent p {
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:14px;

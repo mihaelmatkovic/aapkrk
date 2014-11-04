@@ -11,6 +11,21 @@ body {
 	background-repeat:repeat-x;
 	background-position: top;
 	background-attachment:fixed;
+	
+}@charset "utf-8";
+/* CSS Document */
+
+
+/*########################*/
+/* general HTML Tag Rules */
+/*########################*/
+
+body {
+	background-image:url(../images/bg_body.jpg);
+	background-repeat:repeat-x;
+	background-position: top;
+	background-attachment:fixed;
+	
 }
 
 h1, h2, h3, h4 {
@@ -19,17 +34,22 @@ h1, h2, h3, h4 {
 	font-family:Arial, Helvetica, sans-serif;
 	
 	font-weight:bold;
-	color:#333;	
+	color:#333
+	
 }
 
 p {
 	margin:0px;
 	padding:0px;
 	font-family:Arial, Helvetica, sans-serif;
-	font-size:13px;	
+	font-size:13px;
+	
+	
 }
 
-
+a {
+	
+}
 
 a:hover {
 	
@@ -44,26 +64,31 @@ a:hover {
 .wrapOverall {
 	width:1280px;
 	height:2000px;
-	margin:0px auto;	
+	margin:0px auto;
+	
 }
 
 .header {
 	background-image:url(../images/bg_nav.jpg);
 	background-repeat:no-repeat;
 	background-position:top center;
-	height:82px;	
+	height:82px;
+
+	
+	
 }
 
 .header img.loco {
 	margin:8px 0px 14px 160px;
 	padding:0px;
-	float:left;	
+	float:left;
+	
 }
 
 .navMain {
 	float:right;
 	margin:0px;
-	padding:53px 160px 0px 0px;	
+	padding:53px 160px 0px 0px;
 }
 
 
@@ -71,6 +96,8 @@ a:hover {
 	margin:0px;
 	padding:0px;
 	width:1280px;
+	min-height:700px;
+
 	
 }
 .langSwitcher {
@@ -83,6 +110,7 @@ a:hover {
 	padding: 7px;
 	font-family: sans-serif;
 	color: #a79371;
+	font-size: 13px;
 }
 .langSwitcher a {
 	color: #32afc3;
@@ -105,38 +133,38 @@ a:hover {
 	width:228px;
 	height:388px;
 	margin:0px;
-	padding:0px;
+	padding:0Px;
 	float:left;
+
 }
 .searchBox p {
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:13px;
 	font-weight:bold;
-	color:#979286;	
-
+	color:#979286;
+		
 }
-
 
 .typeAccommo {
 	height:78px;
 	width:228px;
-	border-bottom:#ebe0ce solid 1px;
+	border:#ebe0ce solid 1px;
 	
 }
 .region {
 	height:78px;
 	width:228px;
-	border-bottom:#ebe0ce solid 1px;
+	border:#ebe0ce solid 1px;
 }
 .arrival {
 	height:85px;
 	width:228px;
-	border-bottom:#ebe0ce solid 1px;
+	border:#ebe0ce solid 1px;
 }
 .numbPpl {
 	height:50px;
 	width:228px;
-	border-bottom:#ebe0ce solid 1px;
+	border:#ebe0ce solid 1px;
 }
 .searchButton {
 	background-image: src="images/search-button.png";
@@ -146,20 +174,24 @@ a:hover {
 
 .buttonSearch {
 	margin:0px;
-	padding:10px 15px; 	
+	padding:10px 15px; 
+	
 }
 #button {
-	background-image:url(images/search-button.png);
+	background-image:url(../images/search-button.png);
 	background-repeat:no-repeat;
 	width:200px;
 	height:33px;
 	text-indent:-99999px;
 	margin:10px 15px;
 	border: none;
+	
+
 }
 
+
 .picture {
-	background-image:url(images/pictest.jpg);
+	background-image:url(../images/pictest.jpg);
 	background-repeat:no-repeat;
 	background-position:top right;
 	width:717px;
@@ -191,7 +223,9 @@ a:hover {
 	height:364px;
 	width:960px;
 	margin:13px 160px 0px 160px;
-	padding:0Px;	
+	padding:0Px;
+	
+	
 }
 
 .welcome {
@@ -199,33 +233,285 @@ a:hover {
 	height:364px;
 	margin:0px;
 	padding:0px;
-	float:left;	
+	float:left;
+	
 }
 
 .specOffers {
 	width:230px;
 	height:175px;
 	float:right;
+	
 }
 .specTitle {
 	float:left;
 }
 
-
+.specButton {
+	margin:0px;
+	padding:23px 0px 15px 15px ;
+	
+}
 .foot {
 	background-image:url(../images/footer.jpg);
 	background-position:bottom center;
 	background-repeat:no-repeat;
 	height:242px;
 	width:1280px;
-	margin-top: 100px;	
+	
+	
 }
 .footContent{
 	height:179px;
 	margin:30px 160px 40px 160px;
-	padding:30px 0px 40px 0px;	
+	padding:30px 0px 40px 0px;
+	
 }
 
+#accommo {
+	width:200px;
+	height:26px;
+	margin:0px 15px 20px 15px;
+	color:#ec6c1f;
+	font-weight:bold;
+	
+	
+}
+#reion {
+	width:200px;
+	height:26px;
+	margin:0px 15px 20px 15px;
+	color:#ec6c1f;
+	font-weight:bold;
+}
+
+#numPpl {
+	width:67px;
+	height:26px;
+	float:right;
+	margin:8px 13px 12px 0px;
+	color:#ec6c1f;
+	font-weight:bold;
+
+}
+.numbText {
+	float:left;
+	padding:0px;
+	margin:0px;
+}
+.arrivalOverall {
+	height:44px;
+}
+
+.departureOverall {
+	height:44px;
+	
+}
+#arrival { 
+	width:97px;
+	height:26px;
+	float:right;
+	margin:8px 13px 8px 0px;
+	padding:0px;
+	color:#ec6c1f;
+	font-weight:bold;
+	
+}
+#departure {
+	width:97px;
+	height:26px;
+	float:right;
+	margin:0px 13px 8px 0px;
+	padding:0px;
+	color:#ec6c1f;
+	font-weight:bold;
+	
+}
+.arrivalTitle {
+	float:left;
+	
+}
+.departureTitle {
+	float:left;
+}
+
+/*###################*/
+/* general Box Rules */
+/*###################*/
+
+.searchBoxHeader {
+	background-image:url(../images/search_bucket_hearder.png);
+	background-repeat:no-repeat;
+	background-position:top left;
+	margin:0px;
+	padding:0Px;
+	width:230px;
+	height:9px;
+	color:#73655e;
+	font-weight:bold;
+}
+
+.searchBoxBody {
+	background-image:url(../images/search_bucket_bx.png);
+	background-repeat:no-repeat;
+	background-position:top left;
+	margin:0px;
+	padding:0Px 2px 0px 0px;
+	height:353px;
+	width:229px;
+	
+}
+.searchBox p {
+	padding:13px;
+	margin:0px;
+	
+}
+
+.welcomeBoxHeader {
+	background-image:url(../images/welcome_bucket_header.png);
+	background-position:top left;
+	background-repeat:no-repeat;
+	width:716px;
+	height:10px;
+	color:#73655e;
+	font-weight:bold;
+	
+	
+}
+
+.welcomeBoxBody {
+	background-image:url(../images/welcome_bucket_bx.png);
+	background-repeat:no-repeat;
+	background-position:top left;
+	height:328px;
+	width:716px;
+	margin:0px;
+	padding:0Px;
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#8e887b;
+		
+	
+}
+
+.welcome p {
+	padding:13px;
+	margin:0px;
+	
+	
+	
+}
+
+.specOffersBoxHeader {
+	background-image:url(../images/spec_offers_bucket_header.png);
+	background-repeat:no-repeat;
+	background-position:top left;
+	width:230px;
+	height:36px;
+	color:#73655e;
+	font-weight:bold;
+	
+	
+
+}
+
+.specOffersBoxBody {
+	background-image:url(../images/spec_offers_bucket_bx.png);
+	background-position:top left;
+	background-repeat:no-repeat;
+	width:230px;
+	height:139px;
+	margin:0px;
+	padding:0Px;
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#8e887b;
+	text-align:left;
+	
+	
+	
+}
+.specOffersBoxBody img.specButtton {
+	margin:0px;
+	padding:0px;
+	
+	
+}
+
+.specOffers p {
+	padding:13px;
+	margin:0px;
+	
+}
+
+
+
+/*####################*/
+/* general Navi Rules */
+/*####################*/
+
+
+
+.navMain ul {
+	margin:0px;
+	padding:0px;
+	
+	
+}
+.navMain ul li {
+	padding: 10px;
+	display:inline;
+	list-style:none;
+	background: rgba(16, 100, 115, 0.498039);
+	border-radius: 4px 4px 0 0;
+		
+}
+#active {
+	background-color: #ffffff;
+}
+#active a{
+	color:#157b92;
+}
+
+.navMain ul li a {
+	
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#FFFFFF;
+	font-weight:bold;	
+}
+.navMain ul li:hover{	
+	background: rgba(16, 100, 115, 0.9);
+	color:#FFFFFF;	
+	border-radius: 4px 4px 0 0;
+}
+
+.footContent ul {
+	margin:0px;
+	padding:0px;
+	color:#FFFFFF;
+	list-style: none;
+}
+
+.footContent ul li {
+	margin:5px;
+	padding:0px;
+	
+	
+}
+
+.footContent ul li a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#FFFFFF;
+	
+}
+
+.footContent ul li a:hover {
+	
+	
+}
 .siteLinks {
 	float:left;
 	margin:0px 36px 0px 0px;
@@ -273,239 +559,8 @@ a:hover {
 .subscribe {
 	position:absolute;	
 }
-#accommo {
-	width:200px;
-	height:26px;
-	margin:5px 15px 20px 15px;
-	color:#ec6c1f;
-	font-weight:bold;	
-}
-#reion {
-	width:200px;
-	height:26px;
-	margin:5px 15px 20px 15px;
-	color:#ec6c1f;
-	font-weight:bold;
-}
-
-#numPpl {
-	width:67px;
-	height:26px;
-	float:right;
-	margin:10px 13px 12px 0px;
-	color:#ec6c1f;
-	font-weight:bold;
-}
-.numbText {
-	float:left;
-	padding:0px;
-	margin:0px;
-}
-.arrivalOverall {
-	height:44px;
-}
-
-.departureOverall {
-	height:44px;	
-}
-#arrival { 
-	width:97px;
-	height:26px;
-	float:right;
-	margin:10px 13px 8px 0px;
-	padding:0px;
-	color:#ec6c1f;
-	font-weight:bold;	
-}
-#departure {
-	width:97px;
-	height:26px;
-	float:right;
-	margin:0px 13px 8px 0px;
-	padding:0px;
-	color:#ec6c1f;
-	font-weight:bold;	
-}
-.arrivalTitle {
-	float:left;
-	
-}
-.departureTitle {
-	float:left;
-}
-
-/*###################*/
-/* general Box Rules */
-/*###################*/
-
-.searchBoxHeader {
-	background-image:url(../images/search_bucket_hearder.png);
-	background-repeat:no-repeat;
-	background-position:top left;
-	margin:0px;
-	padding:0Px;
-	width:230px;
-	height:9px;
-	color:#73655e;
-	font-weight:bold;
-}
-
-.searchBoxBody {
-	background-image:url(../images/search_bucket_bx.png);
-	background-repeat:no-repeat;
-	background-position:top left;
-	margin:0px;
-	padding:0px 2px 0px 0px;
-	height:353px;
-	width:229px;	
-}
-.searchBox p {
-	padding:13px;
-	margin:0px;
-}
-
-.welcomeBoxHeader {
-	background-image:url(../images/welcome_bucket_header.png);
-	background-position:top left;
-	background-repeat:no-repeat;
-	width:716px;
-	height:10px;
-	color:#73655e;
-	font-weight:bold;
-}
-
-.welcomeBoxBody {
-	background-image:url(../images/welcome_bucket_bx.png);
-	background-repeat:no-repeat;
-	background-position:top left;
-	height:328px;
-	width:716px;
-	margin:0px;
-	padding:0px;
-	font-size:13px;
-	font-family:Arial, Helvetica, sans-serif;
-	color:#8e887b;	
-}
-
-.welcome p {
-	padding:13px;
-	margin:0px;	
-}
-
-.specOffersBoxHeader {
-	background-image:url(../images/spec_offers_bucket_header.png);
-	background-repeat:no-repeat;
-	background-position:top left;
-	width:230px;
-	height:36px;
-	color:#73655e;
-	font-weight:bold;
-	position:absolute;
-}
-.specPic{
-	position:relative;
-	float:right;
-	bottom:13px;
-	left:20px;	
-}
-.specTitle {
-	float:left;
-	margin: 0px;
-	padding:13px;
-}
-.specOffersBoxBody {
-	background-image:url(../images/spec_offers_bucket_bx.png);
-	background-position:top left;
-	background-repeat:no-repeat;
-	width:230px;
-	height:139px;
-	margin-top: 36px;
-	padding-top: 13Fpx;
-	font-size:13px;
-	font-family:Arial, Helvetica, sans-serif;
-	color:#8e887b;
-	text-align:left;
-}
-.specOffersBoxBody p {
-	padding: 13px 0px 0px 10px;
-	font-size:13px;
-	font-family:Arial, Helvetica, sans-serif;
-	color:#8e887b;
-	text-align:left;
-}
-
-.specOffersBoxBody img {
-	padding: 35px 15px;
-}
 
 
 
 
 
-/*####################*/
-/* general Navi Rules */
-/*####################*/
-.navMain ul {
-	margin:0px;
-	padding:0px;
-	
-}
-.navMain ul li {
-	padding: 10px;
-	display:inline;
-	list-style:none;
-	background: rgba(16, 100, 115, 0.498039);
-	border-radius: 4px 4px 0 0;
-		
-}
-#active {
-	background-color: #ffffff;
-}
-#active a{
-	color:#157b92;
-}
-
-.navMain ul li a {
-	
-	text-decoration:none;
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:14px;
-	color:#FFFFFF;
-	font-weight:bold;	
-}
-.navMain ul li:hover{	
-	background: rgba(16, 100, 115, 0.9);
-	color:#FFFFFF;	
-	border-radius: 4px 4px 0 0;
-}
-.footContent p {
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:14px;
-	color:#FFFFFF;
-}
-
-.footContent ul {
-	margin:0px;
-	padding:0px;
-	color:#FFFFFF;
-	list-style:none;
-}
-
-.footContent ul li {
-	margin:5px;
-	padding:0px;
-	
-	
-}
-
-.footContent ul li a {
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:14px;
-	color:#FFFFFF;
-	
-}
-
-.footContent ul li a:hover {
-	
-	
-}

@@ -598,7 +598,7 @@ input {
 
 
 #button {
-	background-image:url(images/search-button.png);
+	background-image:url(../images/search-button.png);
 	width:200px;
 	height:33px;
 	text-indent:-99999px;
