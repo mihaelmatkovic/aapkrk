@@ -79,7 +79,29 @@ a:hover {
 	margin:0px;
 	padding:0px;
 	width:1280px;
-	min-height:800px;
+	min-height:900px;
+	position: relative;	
+}
+.backTop {
+	position: absolute;
+	bottom: 10px;
+	right: 160px;
+	width: 120px;
+	background-color: #e2c096;
+	padding: 10px 20px;
+	border:1px solid #d8b58c;
+	border-radius: 20px;
+	text-decoration: none;
+}
+.backTop p {
+	color: #a96c33;	
+	font-weight: bold;
+	font-family: arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+.arrowTop {
+	float:left;
+	padding-right: 10px;
 	
 }
 .langSwitcher {
