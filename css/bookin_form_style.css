@@ -68,7 +68,7 @@ input {
 
 .wrapOverall {
 	width:1280px;
-	height:2000px;
+	
 	margin:0px auto;
 	
 }
@@ -92,12 +92,12 @@ input {
 .navMain {
 	float:right;
 	margin:0px;
-	padding:53px 160px 0px 0px;
+	padding:54px 160px 0px 0px;
 }
 
 
 .content {
-	margin:0px;
+	margin-top: 35px;
 	padding:0px;
 	width:1280px;
 	min-height: 1650px; 
@@ -181,7 +181,7 @@ input {
 .footContent{
 	height:179px;
 	margin:30px 160px 0px 160px;
-	padding:30px 0px 40px 0px;
+	padding:30px 0px 0px 0px;
 	
 }
 
@@ -257,7 +257,7 @@ input {
 	list-style:none;
 	margin: 0px 5px;
 	padding-left: 0px;
-	padding-top: 5px;
+	padding-top: 8px;
 	
 } 
 .sideNav ul li {
@@ -350,6 +350,12 @@ input {
 .accUnit {
 	width: 343px;
 	float: left;
+	position: relative;
+}
+.arrowBook {
+	position: absolute;
+	right: 30px;
+	top: 38px;
 }
 .Box {
 	float:left;

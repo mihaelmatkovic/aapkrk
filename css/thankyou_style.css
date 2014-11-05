@@ -27,6 +27,7 @@ h1, h2, h3, h4 {
 p {
 	margin:0px;
 	padding:0px;
+	font-family: arial, Helvetica, sans-serif;
 	
 	
 }
@@ -47,7 +48,7 @@ a:hover {
 
 .wrapOverall {
 	width:1280px;
-	height:2000px;
+	
 	margin:0px auto;
 	
 }
@@ -71,12 +72,12 @@ a:hover {
 .navMain {
 	float:right;
 	margin:0px;
-	padding:53px 160px 0px 0px;
+	padding:54px 160px 0px 0px;
 }
 
 
 .content {
-	margin:0px;
+	margin-top: 35px;
 	padding:0px;
 	width:1280px;
 	min-height:900px;
@@ -118,6 +119,10 @@ a:hover {
 }
 .langSwitcher a {
 	color: #32afc3;
+	float: left;
+	padding: 7px;
+	font-family: sans-serif;
+	font-size: 13px;
 }
 .lan {
 	float: left;
@@ -156,8 +161,8 @@ a:hover {
 }
 .footContent{
 	height:179px;
-	margin:30px 160px 40px 160px;
-	padding:30px 0px 40px 0px;
+	margin:30px 160px 0px 160px;
+	padding:30px 0px 0px 0px;
 	
 }
 
@@ -251,6 +256,7 @@ a:hover {
 	margin:0px;
 	padding:0px;
 	font-size:13px;
+	color: #000;
 	
 }
 .listLeft ul {
@@ -260,6 +266,7 @@ a:hover {
 .listLeft ul li {
 	list-style:none;
 	font-weight:bold;
+	padding-bottom: 2px;
 	
 }
 
@@ -282,6 +289,7 @@ a:hover {
 }
 .listright ul li {
 	list-style:none;
+	padding-bottom: 2px;
 	
 }
 
@@ -355,6 +363,9 @@ a:hover {
 	height:966px;
 	margin:20px;
 	padding:0px;
+	font-family: arial, Helvetica, sans-serif;
+	color: #83807d;
+	font-size: 14px;
 	
 }
 
